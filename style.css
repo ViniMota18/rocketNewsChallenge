@@ -1,0 +1,137 @@
+:root{
+    
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./assets/read_news.jpg");
+    background-size: 82vw 100vh;
+    background-repeat: no-repeat;
+    background-position: 400px;
+}
+
+
+
+.logo{
+    height: 94px;
+    width: 389px;
+    margin: 30px;
+    margin-bottom: 92px;
+}
+
+.container{
+    background-color: #121214; 
+    height: 100vh; 
+    width: 50vw;
+
+}
+
+.infos{
+    margin-left: 36px;
+    color: white;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #04D361;
+    margin-bottom: 9px;
+    
+    
+}
+
+h2{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 9px;
+    
+}
+
+p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 9px;
+    
+}
+
+a{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: #8257e5;
+    text-decoration-line: none;
+    font-size: 14px;
+    margin-top: 184px;
+    
+}
+
+.cadastro{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 388px;    
+    color: #A8A8A8;
+    margin-left: 36px;
+}
+
+input:focus { /*retirar a borda do input quando clicado*/
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.cadastro label{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 17px;
+    
+}
+
+.cadastro #email{
+    border: 0px;
+    padding: 10px;
+    border-left: 5px solid #04D361;
+    height: 48px;
+    width: 798px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+::placeholder{
+    border-left: 10px;
+}
+.cadastro button{
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    background-color: #8257e5;
+    border: none;
+    cursor: pointer;    
+}
+
+.camp{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 10px 15px #121214;
+}
+
+.cadastro #send{
+    fill: white;
+}
+
